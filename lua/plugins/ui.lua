@@ -1,7 +1,7 @@
 return {
     {
         "akinsho/bufferline.nvim",
-        config = true, 
+        config = true,
     },
     {
         "lewis6991/gitsigns.nvim",
@@ -10,7 +10,7 @@ return {
     {
         "goolord/alpha-nvim",
         config = function()
-            require'alpha'.setup(require'alpha.themes.dashboard'.config)
+            require 'alpha'.setup(require 'alpha.themes.dashboard'.config)
         end
     },
     {
@@ -20,4 +20,3 @@ return {
         end
     },
 }
-

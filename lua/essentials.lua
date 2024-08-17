@@ -17,9 +17,9 @@ option.wildmenu = true
 option.hlsearch = false
 option.ignorecase = true
 option.smartcase = true
-option.completeopt = { "menu", "noselect" }
+option.completeopt = { "menuone", "noselect" }
 option.cursorline = true
-option.termguicolors = false 
+option.termguicolors = true 
 option.signcolumn = "yes"
 option.autoread = true
 option.title = true
@@ -45,7 +45,7 @@ global.mapleader = " "
 -- vim.keymap.set({ "n", "i", "v" }, "<Up>", "<Nop>")
 -- vim.keymap.set({ "n", "i", "v" }, "<Down>", "<Nop>")
 
-vim.keymap.set("n", "<A-Tab>", "<cmd>bNext<CR>") 
+vim.keymap.set("n", "<A-Tab>", "<cmd>bNext<CR>")
 vim.keymap.set("n", "<leader>bc", "<cmd>bd<CR>")
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
