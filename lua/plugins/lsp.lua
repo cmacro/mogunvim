@@ -1,8 +1,11 @@
 return {
     "neovim/nvim-lspconfig",
+    cmd = { "Mason", "Neoconf" },
+    event = { "BufReadPost", "BufNewFile" },
     dependencies = {
         "williamboman/mason.nvim",
         "williamboman/mason-lspconfig",
+        "folke/neoconf.nvim",
         "folke/neodev.nvim",
         {
             "j-hui/fidget.nvim",
